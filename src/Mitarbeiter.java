@@ -1,13 +1,11 @@
-public class Mitarbeiter {
-    String vorname, name, beruf;
-    public Mitarbeiter(String v, String n, String b) {
-        vorname = v;
-        name = n;
+public class Mitarbeiter extends Person{
+    String beruf;
+    public Mitarbeiter(String n, String v,String b) {
+        super(n, v);
         beruf = b;
     }
     public Mitarbeiter(String v, String n) {
-        vorname = v;
-        name = n;
+        super(n, v);
     }
 
     public String getVorname() {
