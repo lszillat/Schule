@@ -1,6 +1,6 @@
 public class Mitarbeiter extends Person{
     String beruf;
-    public Mitarbeiter(String n, String v,String b) {
+    public Mitarbeiter(String v, String n,String b) {
         super(n, v);
         beruf = b;
     }

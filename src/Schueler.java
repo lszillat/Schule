@@ -1,7 +1,7 @@
 public class Schueler extends Person {
     int Note1, Note2;
     String Fach1, Fach2;
-    public Schueler(String n, String v, int N1, String F1, int N2, String F2) {
+    public Schueler(String v, String n, int N1, String F1, int N2, String F2) {
         super(n, v);
         Note1 = N1;
         Fach1 = F1;
